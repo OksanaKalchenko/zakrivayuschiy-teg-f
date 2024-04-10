@@ -160,12 +160,12 @@
   filter: grayscale(100%);
 }
 
-.filter__hue-rotate {
-  filter: hue-rotate(-30deg);
+.filter__saturate {
+  filter: saturate(150%);
 }
 
 .filter__sepia__saturate {
-  filter: sepia(50%) saturate(150%);
+  filter: sepia(50%) saturate(140%);
 }
 
 .main__section-card__title {
