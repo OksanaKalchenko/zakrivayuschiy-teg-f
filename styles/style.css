@@ -306,18 +306,6 @@
 
 .save__button {
   background-color: var(--bg-color);
-}
-
-.floppy-image {
-  fill: var(--hover-button-color);
-  inline-size: 21px;
-  block-size: 21px;
-  position: relative;
-  z-index: 1;
-  mix-blend-mode: difference;
-}
-
-.save__button {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -327,6 +315,15 @@
   min-block-size: 57px;
   font-size: 14px;
   margin-block-end: 100px;
+}
+
+.floppy-image {
+  fill: var(--hover-button-color);
+  inline-size: 21px;
+  block-size: 21px;
+  position: relative;
+  z-index: 1;
+  mix-blend-mode: difference;
 }
 
 .dialog[open] {
@@ -351,7 +348,7 @@
 
 .dialog__content-container {
   display: flex;
-  flex-direction: row;   
+  flex-direction: row;
   gap: 20px;
   align-items: center;
   justify-content: center;
