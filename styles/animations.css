@@ -25,7 +25,7 @@
 
 .like-icon .core {
     fill: transparent;
-    transition: fill 0.1s linear;
+    transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon .main-body {
@@ -74,6 +74,15 @@
 
 .like-icon.is-liked .sparks {
     animation: sparks 0.3s ease-in 1 0.3s alternate;
+}
+
+@keyframes animation-menu-arrow {
+    from {
+        left: -17px;
+    }
+    to {
+        left: -13px;
+    }
 }
 
 @keyframes heart-scale {
